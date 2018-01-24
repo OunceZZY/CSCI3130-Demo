@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         // search for the two windows, get the new string and replace with new string
         EditText editText2 = (EditText) findViewById(R.id.editText2);
         TextView textView = findViewById(R.id.textView);
+        
         String message = editText2.getText().toString();
 
         textView.setText(message);
